@@ -14,6 +14,7 @@ public class TorpedoStore {
 
   private int torpedoCount = 0;
 
+  // New variable added to avoid putting a Random class entitiy into a function
   private Random generator = new Random();
 
   public TorpedoStore(int numberOfTorpedos) {
